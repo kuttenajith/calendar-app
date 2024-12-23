@@ -1,0 +1,44 @@
+.sidebar {
+    width: 250px;
+    background-color: #e8e8e8;
+    padding: 15px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+}
+
+.sidebar-section {
+    margin-bottom: 20px;
+}
+
+.event-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.event-item input {
+    margin-right: 10px;
+}
+
+.sidebar-section .event-list {
+    padding: 0;
+}
+
+.upcoming-event-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    list-style: none;
+    display: flex;
+}
+
+.event-profile-pic {
+    width: 75%;
+    border-radius: 15px;
+    height: 75%;
+}
+
+.event-info {
+    align-content: center;
+}

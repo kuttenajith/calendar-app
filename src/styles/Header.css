@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-left,
+.header-middle,
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-middle {
+    flex: 1;
+    justify-content: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.icon {
+    margin: 0 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.search-bar {
+    padding: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    background-color: gainsboro;
+}

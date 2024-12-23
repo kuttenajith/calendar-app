@@ -1,0 +1,32 @@
+.calendar-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.calendar-container .header-middle {
+    justify-content: left;
+}
+
+.fc .fc-toolbar {
+    margin-bottom: 20px;
+}
+
+.fc .fc-daygrid-event {
+    background-color: #3788d8;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.fc .fc-button {
+    background-color: #3788d8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.fc .fc-button:hover {
+    background-color: #286ba8;
+}
